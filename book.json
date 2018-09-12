@@ -1,0 +1,32 @@
+{
+    "gitbook": "3.2.2",
+    "output": null,
+    "generator": "site",
+    "isbn": "",
+    "extension": null,
+    "plugins": [
+        "search",        
+        "custom-favicon",
+        "insert-logo-link",
+        "-sharing",
+        "theme-official",
+        "-lunr",
+        "-fontsettings"
+    ],
+    "title": "Теория вероятностей и математическая статистика",
+    "author": "Greysoft",
+    "description": "Электронно-учебный методический комплекс дисциплины",
+    "language": "ru",
+    "root": ".",
+    "pluginsConfig": {
+        "insert-logo-link": {
+            "src": "images/logo.png",
+            "url": "https://ytk.edu.ru/"
+          },
+        "favicon": "images/favicon.ico"
+    },
+    "styles": {
+        "website": "styles/website.css"
+    }
+
+}
