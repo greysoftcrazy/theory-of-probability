@@ -1,0 +1,551 @@
+
+<!DOCTYPE HTML>
+<html lang="ru" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>1.3 Beроятности сложных событий. Схема Бернулли · Теория вероятностей и математическая статистика</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="author" content="Greysoft">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-insert-logo-link/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+
+    
+    <link rel="next" href="lection5.html" />
+    
+    
+    <link rel="prev" href="lection4.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="gb-page-wrapper">
+    <header class="gb-page-header">
+        <div class="container">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Введите условия поиска" />
+</div>
+
+
+            <a href="../.." class="logo">
+                <img src="../../gitbook/images/logo/128.png">
+                <h1>Теория вероятностей и математическая статистика</h1>
+            </a>
+
+            
+
+            
+                
+                <a href="lection5.html" class="btn btn-link pull-right hidden-xs">
+                    <i class="octicon octicon-chevron-right"></i>
+                </a>
+                
+                
+                <a href="lection4.html" class="btn btn-link pull-right hidden-xs">
+                    <i class="octicon octicon-chevron-left"></i>
+                </a>
+                
+            
+        
+        </div>
+    </header>
+
+    <div class="gb-page-body">
+        <div class="gb-page-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        
+
+
+
+    
+    <div class="panel panel-default">
+        
+
+        <div class="list-group">
+            
+    
+        
+        <a href="../../" class="list-group-item ">
+        
+
+            
+
+            
+
+            Аннотация
+
+        
+        </a>
+        
+
+        
+    
+        
+        <a href="../structure.html" class="list-group-item ">
+        
+
+            
+
+            
+
+            Содержание
+
+        
+        </a>
+        
+
+        
+    
+        
+        <a href="../wwedenie.html" class="list-group-item ">
+        
+
+            
+
+            
+
+            Введение
+
+        
+        </a>
+        
+
+        
+    
+
+        </div>
+    </div>
+    
+    <div class="panel panel-default">
+        
+        <div class="panel-heading">
+            <h3 class="panel-title">Раздел 1 Теория вероятностей</h3>
+        </div>
+        
+
+        <div class="list-group">
+            
+    
+        
+        <a href="structure-1.1.html" class="list-group-item ">
+        
+
+            
+
+            
+            <i class="octicon octicon-chevron-right"></i>
+            
+
+            1.1  Комбинаторика
+
+        
+        </a>
+        
+
+        
+    
+        
+        <a href="structure-1.2.html" class="list-group-item ">
+        
+
+            
+
+            
+            <i class="octicon octicon-chevron-right"></i>
+            
+
+            1.2 События
+
+        
+        </a>
+        
+
+        
+    
+        
+        <a href="structure-1.3.html" class="list-group-item active">
+        
+
+            
+
+            
+            <i class="octicon octicon-chevron-down"></i>
+            
+
+            1.3 Beроятности сложных событий. Схема Бернулли
+
+        
+        </a>
+        
+
+        
+        
+    
+        
+        <a href="lection5.html" class="list-group-item ">
+        
+
+            
+            <i class="octicon octicon-chevron-down" style="opacity: 0"></i>
+            
+
+            
+
+            Лекция 5 Теоремы сложения и умножения вероятностей
+
+        
+        </a>
+        
+
+        
+    
+        
+        <a href="lection6.html" class="list-group-item ">
+        
+
+            
+            <i class="octicon octicon-chevron-down" style="opacity: 0"></i>
+            
+
+            
+
+            Лекция 6 Формулы Байеса и Бернулли
+
+        
+        </a>
+        
+
+        
+    
+
+        
+    
+        
+        <a href="structure-1.4.html" class="list-group-item ">
+        
+
+            
+
+            
+            <i class="octicon octicon-chevron-right"></i>
+            
+
+            1.4 Дискретные случайные величины
+
+        
+        </a>
+        
+
+        
+    
+        
+        <a href="structure-1.5.html" class="list-group-item ">
+        
+
+            
+
+            
+            <i class="octicon octicon-chevron-right"></i>
+            
+
+            1.5. Непрерывные случайные  величины
+
+        
+        </a>
+        
+
+        
+    
+
+        </div>
+    </div>
+    
+    <div class="panel panel-default">
+        
+        <div class="panel-heading">
+            <h3 class="panel-title">Раздел 2 Математическая статистика</h3>
+        </div>
+        
+
+        <div class="list-group">
+            
+    
+        
+        <a href="../razdel2/structure-2.1.html" class="list-group-item ">
+        
+
+            
+
+            
+            <i class="octicon octicon-chevron-right"></i>
+            
+
+            2.1 Выборочный метод
+
+        
+        </a>
+        
+
+        
+    
+        
+        <a href="../razdel2/structure-2.2.html" class="list-group-item ">
+        
+
+            
+
+            
+            <i class="octicon octicon-chevron-right"></i>
+            
+
+            2.2 Моделирование случайных величин
+
+        
+        </a>
+        
+
+        
+    
+
+        </div>
+    </div>
+    
+    <div class="panel panel-default">
+        
+
+        <div class="list-group">
+            
+    
+        
+        <a href="../resume.html" class="list-group-item ">
+        
+
+            
+
+            
+
+            Заключение
+
+        
+        </a>
+        
+
+        
+    
+        
+        <a href="../lit.html" class="list-group-item ">
+        
+
+            
+
+            
+
+            Рекомендованный библиографический список
+
+        
+        </a>
+        
+
+        
+    
+
+        </div>
+    </div>
+    
+    <div class="panel panel-default">
+        
+
+        <div class="list-group">
+            
+    
+        
+        <a href="../pril1.html" class="list-group-item ">
+        
+
+            
+
+            
+
+            Приложение 1
+
+        
+        </a>
+        
+
+        
+    
+        
+        <a href="../pril2.html" class="list-group-item ">
+        
+
+            
+
+            
+
+            Приложение 2
+
+        
+        </a>
+        
+
+        
+    
+        
+        <a href="../../GLOSSARY.html" class="list-group-item ">
+        
+
+            
+
+            
+
+            Глоссарий
+
+        
+        </a>
+        
+
+        
+    
+
+        </div>
+    </div>
+    
+
+
+
+                    </div>
+                    <div class="col-md-9">
+                        
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                            
+                            <div class="gb-markdown book-page-inner">
+                                <h2 id="13-be&#x440;&#x43E;&#x44F;&#x442;&#x43D;&#x43E;&#x441;&#x442;&#x438;-&#x441;&#x43B;&#x43E;&#x436;&#x43D;&#x44B;&#x445;-&#x441;&#x43E;&#x431;&#x44B;&#x442;&#x438;&#x439;-&#x441;&#x445;&#x435;&#x43C;&#x430;-&#x431;&#x435;&#x440;&#x43D;&#x443;&#x43B;&#x43B;&#x438;">1.3. Be&#x440;&#x43E;&#x44F;&#x442;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x441;&#x43B;&#x43E;&#x436;&#x43D;&#x44B;&#x445; &#x441;&#x43E;&#x431;&#x44B;&#x442;&#x438;&#x439;. &#x421;&#x445;&#x435;&#x43C;&#x430; &#x411;&#x435;&#x440;&#x43D;&#x443;&#x43B;&#x43B;&#x438;</h2>
+<ul>
+<li><a href="lection5.html">&#x41B;&#x435;&#x43A;&#x446;&#x438;&#x44F; 5 &#x422;&#x435;&#x43E;&#x440;&#x435;&#x43C;&#x44B; &#x441;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x438; &#x443;&#x43C;&#x43D;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x432;&#x435;&#x440;&#x43E;&#x44F;&#x442;&#x43D;&#x43E;&#x441;&#x442;&#x435;&#x439;</a></li>
+<li><a href="lection6.html">&#x41B;&#x435;&#x43A;&#x446;&#x438;&#x44F; 6 &#x424;&#x43E;&#x440;&#x43C;&#x443;&#x43B;&#x44B; &#x411;&#x430;&#x439;&#x435;&#x441;&#x430; &#x438; &#x411;&#x435;&#x440;&#x43D;&#x443;&#x43B;&#x43B;&#x438;</a></li>
+</ul>
+
+                            </div>
+                            
+                        
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="gb-page-footer">
+        <div class="container">
+            <ul class="menu">
+                <li class="pull-right">
+                    <span class="service-info">Copyright GitBook 2018</span>
+                </li>
+                <li>
+                    <a href="#">Return to the top</a>
+                </li>
+                <li>
+                    <a href="#">Updated Sep 13th 18</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<script src="../../gitbook/gitbook.js"></script>
+
+    
+    <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+    
+
+    
+    <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../../gitbook/gitbook-plugin-insert-logo-link/plugin.js"></script>
+    
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.6-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../../gitbook/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+    
+    <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+(function() {
+    gitbook.page.hasChanged({"page":{"title":"1.3 Beроятности сложных событий. Схема Бернулли","level":"2.3","depth":1,"next":{"title":"Лекция 5 Теоремы сложения и умножения вероятностей","level":"2.3.1","depth":2,"path":"docs/razdel1/lection5.md","ref":"docs/razdel1/lection5.md","articles":[]},"previous":{"title":"Лекция 4 Определение вероятности. Классическое определение вероятности","level":"2.2.2","depth":2,"path":"docs/razdel1/lection4.md","ref":"docs/razdel1/lection4.md","articles":[]},"dir":"ltr"},"config":{"plugins":["search","custom-favicon","insert-logo-link","-sharing","theme-official","mathjax","-lunr","-fontsettings","livereload"],"root":".","styles":{"website":"styles/website.css"},"pluginsConfig":{"livereload":{},"insert-logo-link":{"src":"images/logo.png","url":"https://ytk.edu.ru/"},"search":{},"theme-official":{},"highlight":{},"favicon":"images/favicon.ico","custom-favicon":{},"mathjax":{"forceSVG":false,"version":"2.6-latest"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Greysoft","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"Теория вероятностей и математическая статистика","language":"ru","gitbook":"3.2.2","description":"Электронно-учебный методический комплекс дисциплины","extension":null},"file":{"path":"docs/razdel1/structure-1.3.md","mtime":"2018-09-13T07:01:43.635Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-09-14T01:01:54.529Z"},"basePath":"../..","book":{"language":""}});
+})();
+</script>
+
+        
+    </body>
+</html>
+
