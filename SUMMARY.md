@@ -1,7 +1,11 @@
 # Summary
 
 * [Аннотация](README.md)
+
 * [Содержание](docs/structure.md)
+
+* [Введение](docs/wwedenie.md)
+
 
 ## [Раздел 1 Теория вероятностей](docs/razdel1/structure.md)
 
@@ -29,11 +33,16 @@
 * [2.2 Моделирование случайных величин](docs/razdel2/structure-2.2.md)
     * [Лекция 12  Общая идея метода статистических испытаний](docs/razdel2/lection12.md)
 
+
 ---
 
 * [Заключение](docs/resume.md)
 * [Рекомендованный библиографический список](docs/lit.md)
 
+
+* [Приложение 1](docs/pril1.md)
+* [Приложение 2](docs/pril2.md)
+* 
 * [Глоссарий](GLOSSARY.md)
 
 
