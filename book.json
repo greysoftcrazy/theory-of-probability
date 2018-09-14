@@ -16,13 +16,19 @@
     ],
     "title": "Теория вероятностей и математическая статистика",
     "author": "Greysoft",
-    "description": "Электронно-учебный методический комплекс дисциплины",
+    "description": "З.И.Лежнева. Курс лекций",
     "language": "ru",
     "root": ".",
     "pluginsConfig": {
         "insert-logo-link": {
             "src": "images/logo.png",
             "url": "https://ytk.edu.ru/"
+          },
+          "algolia": {
+            "index": "e-learnings-template",
+            "applicationID": "EQRWZKJH6M",
+            "publicKey": "03617eabb04cc9cdd91084f3f8f7add0",
+            "freeAccount": "true"
           },
         "favicon": "images/favicon.ico"
     },
