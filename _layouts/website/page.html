@@ -1,0 +1,110 @@
+{% extends "website/layout.html" %}
+
+{% block title %}{{ page.title }} · {{ super() }}{% endblock %}
+{% block description %}{{ page.description }}{% endblock %}
+
+{% block body %}
+<div class="gb-page-wrapper">
+    <header class="gb-page-header">
+        <div class="container">
+        {% block header %}
+        <a href="{{ "/"|resolveFile }}" class="logo">
+            <img src="{{ "../images/logo.png"|resolveAsset }}"> <h1>{{ config.title }}</h1><br><h6>{{  config.description }}</h6>
+        </a>
+        {% block header_nav %}
+            {% if page.next and page.next.path %}
+            <a href="{{ page.next.path|resolveFile }}" class="btn btn-link pull-right hidden-xs" title="Далее">
+                <i class="octicon octicon-arrow-right"></i>
+            </a>
+            {% endif %}
+            {% if page.previous and page.previous.path %}
+            <a href="{{ page.previous.path|resolveFile }}" class="btn btn-link pull-right hidden-xs" title="Назад">
+                <i class="octicon octicon-arrow-left"></i>
+            </a>
+            {% endif %}
+        {% endblock %}
+        {% block search_input %}
+            <div id="book-search-input" role="search">
+               &nbsp; Поиск:&nbsp; <input type="text" placeholder="{{ 'SEARCH_PLACEHOLDER'|t }}" />
+            </div>
+        {% endblock %}
+
+        {% if glossary.length > 0 %}
+        <a href="{{ ('/' + glossary.path)|resolveFile }}" class="btn btn-link pull-right hidden-xs">Glossary</a>
+        {% endif %}
+
+       
+        {% endblock %}
+        </div>
+    </header>
+
+    <div class="gb-page-body">
+        <div class="gb-page-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        {% include "website/sidenav.html" %}
+                    </div>
+                    <div class="col-md-9">
+                        {% block search_results %}
+                        <div id="book-search-results">
+                            <div class="search-noresults">
+                            {{ super() }}
+                            {% block page %}
+                            <div class="gb-markdown book-page-inner">
+                                {{ page.content|safe }}
+                            </div>
+                            {% endblock %}
+                            </div>
+                            <div class="search-results">
+                                <div class="has-results">
+                                    {% block search_has_results %}
+                                    <h1 class="search-results-title">{{ 'SEARCH_RESULTS_TITLE'|t|safe }}</h1>
+                                    <ul class="search-results-list"></ul>
+                                    {% endblock %}
+                                </div>
+                                <div class="no-results">
+                                    {% block search_no_results %}
+                                    <h1 class="search-results-title">{{ 'SEARCH_NO_RESULTS_TITLE'|t|safe }}</h1>
+                                    {% endblock %}
+                                </div>
+                            </div>
+                        </div>
+                        {% endblock %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="gb-page-footer">
+        <div class="container">
+            <ul class="menu">
+                <li class="pull-right">
+                    <span class="service-info">{{ book.GPOUYTK }} {{ gitbook.time|date('YYYY') }}</span>
+                </li>
+                <li>
+                    <a href="#"><i class="octicon octicon-triangle-up"></i>В НАЧАЛО</a>
+                </li>
+                <li>
+                    <a href="#">Обновлено: {{ file.mtime|date('DD.MM.YYYY') }}</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<script src="{{ "gitbook.js"|resolveAsset }}"></script>
+{% for resource in plugins.resources.js %}
+    {% if resource.url %}
+    <script src="{{ resource.url }}"></script>
+    {% else %}
+    <script src="{{ resource.path|resolveAsset }}"></script>
+    {% endif %}
+{% endfor %}
+<script>
+(function() {
+    gitbook.page.hasChanged({{ template.getJSContext()|dump|safe }});
+})();
+</script>
+{% endblock %}

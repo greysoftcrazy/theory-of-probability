@@ -4,15 +4,23 @@
     "generator": "site",
     "isbn": "",
     "extension": null,
+    "variables": {
+        "GPOUYTK": "ГПОУ \"Юргинский технологический колледж \""
+    },
     "plugins": [
-        "search",        
+        "-lunr",
+        "-search",
+        "prism",
+        "search-pro", 
         "custom-favicon",
         "insert-logo-link",
         "-sharing",
         "theme-official",
-        "mathjax",
-        "-lunr",
-        "-fontsettings"
+        "-fontsettings",
+        "-highlight",
+        "anchorjs",
+        "glossary-tooltip",
+        "mathjax"
     ],
     "title": "Теория вероятностей и математическая статистика",
     "author": "Greysoft",
@@ -30,6 +38,9 @@
             "publicKey": "03617eabb04cc9cdd91084f3f8f7add0",
             "freeAccount": "true"
           },
+          "theme-default": {
+            "showLevel": false
+        },
         "favicon": "images/favicon.ico"
     },
     "styles": {
