@@ -84,12 +84,22 @@
                     <span class="service-info">{{ book.GPOUYTK }} {{ gitbook.time|date('YYYY') }}</span>
                 </li>
                 <li>
-                    <a href="#"><i class="octicon octicon-triangle-up"></i>В НАЧАЛО</a>
+                    <a href="#"><i class="octicon octicon-triangle-up"></i>ВВЕРХ</a>
                 </li>
-                <li>
+<!--                <li>
                     <a href="#">Обновлено: {{ file.mtime|date('DD.MM.YYYY') }}</a>
                 </li>
+            -->
+                {% if page.previous and page.previous.path %}
+                <li><a href="{{ page.previous.path|resolveFile }}" class="btn btn-link pull-right hidden-xs" title="Назад">
+                    <i class="octicon octicon-arrow-left"></i></a></li>
+                {% endif %}
+                {% if page.next and page.next.path %}
+                <li><a href="{{ page.next.path|resolveFile }}" class="btn btn-link pull-right hidden-xs" title="Далее">
+                    <i class="octicon octicon-arrow-right"></i></a></li>
+                {% endif %}
             </ul>
+            
         </div>
     </footer>
 </div>

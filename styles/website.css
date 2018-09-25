@@ -40,3 +40,12 @@ th {
   color: white;
 }
 
+img[alt="i4-1_2"] { 
+  max-width:  200px; 
+  display: block;
+}
+
+img[alt="i7"] { 
+  max-width:  300px; 
+  display: block;
+}
