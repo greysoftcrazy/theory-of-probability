@@ -127,3 +127,41 @@ $$M(x^2) = 4·0,21 + 9·0,15 + 25·0,18 + 64·0,25 + 121·0,21 = 48,1$$ ,
 $$D(x) = 48,1 - 6,08^2 ≈ 11,1336$$,
 
 $$σ(x) = \sqrt{11,1336} ≈ 3,34$$.
+
+<quiz id="test" name="<h3> Выполните тестовое задание по материалу лекции</h3>">
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+</quiz>

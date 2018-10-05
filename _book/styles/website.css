@@ -49,3 +49,11 @@ img[alt="i7"] {
   max-width:  300px; 
   display: block;
 }
+
+.quiz-name h3 {
+  text-align:left;
+}
+
+.quiz {
+  padding-left: 0px;
+}

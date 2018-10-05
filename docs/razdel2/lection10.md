@@ -187,3 +187,41 @@ $$ H = {x_{max} - x_{min} \over k} = {232 - 212 \over 5} = 4$$
 
     
 ![i7](../../images/10-2.png)
+
+<quiz id="test" name="<h3> Выполните тестовое задание по материалу лекции</h3>">
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+</quiz>

@@ -7,7 +7,7 @@
         <title>Лекция 2.  Перестановки, сочетания, размещения · Теория вероятностей и математическая статистика</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="generator" content="GitBook 3.2.3">
         <meta name="author" content="Greysoft">
         
         
@@ -29,7 +29,7 @@
                 
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-glossary-tooltip/plugin.css">
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-quiz/style.css">
                 
             
         
@@ -515,11 +515,47 @@
 <p>&#x42D;&#x442;&#x43E; &#x43B;&#x44E;&#x431;&#x43E;&#x435; &#x43F;&#x43E;&#x434;&#x43C;&#x43D;&#x43E;&#x436;&#x435;&#x441;&#x442;&#x432;&#x43E; &#x438;&#x437; <script type="math/tex; ">m</script> &#x44D;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442;&#x43E;&#x432;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x43F;&#x440;&#x438;&#x43D;&#x430;&#x434;&#x43B;&#x435;&#x436;&#x430;&#x442; &#x43C;&#x43D;&#x43E;&#x436;&#x435;&#x441;&#x442;&#x432;&#x443;, &#x441;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x449;&#x435;&#x43C;&#x443; &#x438;&#x437; <script type="math/tex; ">n</script> &#x440;&#x430;&#x437;&#x43B;&#x438;&#x447;&#x43D;&#x44B;&#x445; &#x44D;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442;&#x43E;&#x432;.
 <strong>(&#x41F;&#x43E;&#x440;&#x44F;&#x434;&#x43E;&#x43A; &#x43D;&#x435; &#x432;&#x430;&#x436;&#x435;&#x43D;)</strong></p>
 <p><em>&#x422;&#x438;&#x43F;&#x438;&#x447;&#x43D;&#x430;&#x44F; &#x441;&#x43C;&#x44B;&#x441;&#x43B;&#x43E;&#x432;&#x430;&#x44F; &#x43D;&#x430;&#x433;&#x440;&#x443;&#x437;&#x43A;&#x430;</em>: &#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x438;&#x43C;&#x438; &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x430;&#x43C;&#x438; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x432;&#x44B;&#x431;&#x440;&#x430;&#x442;&#x44C; <script type="math/tex; ">m</script> &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x43E;&#x432; &#x438;&#x437; <script type="math/tex; ">n</script>? </p>
-<h2 id="&#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x435;&#x43D;&#x438;&#x44F;-&#x441;-&#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F;&#x43C;&#x438;">&#x421;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x435;&#x43D;&#x438;&#x44F; &#x441; &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F;&#x43C;&#x438;</h2>
+<h3 id="&#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x435;&#x43D;&#x438;&#x44F;-&#x441;-&#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F;&#x43C;&#x438;">&#x421;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x435;&#x43D;&#x438;&#x44F; &#x441; &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F;&#x43C;&#x438;</h3>
 <p><em>1) &#x41F;&#x435;&#x440;&#x435;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43A;&#x438; &#x441; &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F;&#x43C;&#x438;</em>  <script type="math/tex; "> (P_n)_{повт.} = {n! \over n_1!⋅n_2!⋅...⋅n_k!} </script></p>
 <p><em>2) &#x421;&#x43E;&#x447;&#x435;&#x442;&#x430;&#x43D;&#x438;&#x44F; &#x441; &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F;&#x43C;&#x438;:</em> <script type="math/tex; "> (C_n^m)_{повт.} = C_{n+m-1}^m = {(n+m-1)! \over m!(n-1)!} </script></p>
 <p><em>3) &#x420;&#x430;&#x437;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x44F; &#x441; &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F;&#x43C;&#x438;:</em> <script type="math/tex; "> (A_n^m)_{повт.} = n^m </script></p>
-
+<quiz id="test" name="&lt;h3&gt; &#x412;&#x44B;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435; &#x442;&#x435;&#x441;&#x442;&#x43E;&#x432;&#x43E;&#x435; &#x437;&#x430;&#x434;&#x430;&#x43D;&#x438;&#x435; &#x43F;&#x43E; &#x43C;&#x430;&#x442;&#x435;&#x440;&#x438;&#x430;&#x43B;&#x443; &#x43B;&#x435;&#x43A;&#x446;&#x438;&#x438;&lt;/h3&gt;">
+    <question>
+        <p>&#x427;&#x438;&#x441;&#x43B;&#x43E; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x439; - &#x44D;&#x442;&#x43E; ...</p>
+        <answer>&#x447;&#x438;&#x441;&#x43B;&#x43E; &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x43E;&#x432; &#x43F;&#x435;&#x440;&#x435;&#x441;&#x442;&#x430;&#x432;&#x438;&#x442;&#x44C; <script type="math/tex; ">n</script> &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x43E;&#x432;</answer>
+        <answer>&#x447;&#x438;&#x441;&#x43B;&#x43E; &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x43E;&#x432; &#x432;&#x44B;&#x431;&#x440;&#x430;&#x442;&#x44C; <script type="math/tex; ">m</script> &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x43E;&#x432; &#x438;&#x437; <script type="math/tex; ">n</script></answer>
+        <answer correct="">&#x447;&#x438;&#x441;&#x43B;&#x43E; &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x43E;&#x432; &#x432;&#x44B;&#x431;&#x440;&#x430;&#x442;&#x44C; <script type="math/tex; ">m</script> &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x43E;&#x432; &#x438;&#x437; <script type="math/tex; ">n</script> &#x438; &#x432; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x439; &#x432;&#x44B;&#x431;&#x43E;&#x440;&#x43A;&#x435; &#x43F;&#x435;&#x440;&#x435;&#x441;&#x442;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x438;&#x445; &#x43C;&#x435;&#x441;&#x442;&#x430;&#x43C;&#x438;</answer>
+        <answer><script type="math/tex; ">n!</script></answer>
+    </question>
+    <question>
+        <p>&#x424;&#x43E;&#x440;&#x43C;&#x443;&#x43B;&#x430; &#x434;&#x43B;&#x44F; &#x43D;&#x430;&#x445;&#x43E;&#x436;&#x434;&#x435;&#x43D;&#x438;&#x44F; &#x447;&#x438;&#x441;&#x43B;&#x430; &#x441;&#x43E;&#x447;&#x435;&#x442;&#x430;&#x43D;&#x438;&#x439;:</p>
+        <answer><script type="math/tex; ">A_n^m = {n! \over (n-m)!}</script></answer>
+        <answer correct=""><script type="math/tex; ">C_n^m = {n! \over m!(n-m)!}</script></answer>
+        <answer><script type="math/tex; ">P_n = n!</script></answer>
+        <answer><script type="math/tex; ">P(A) = {m \over n}</script></answer>
+    </question>
+    <question>
+        <p>&#x421;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x441;&#x443;&#x449;&#x435;&#x441;&#x442;&#x432;&#x443;&#x435;&#x442; &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x43E;&#x432; &#x440;&#x430;&#x441;&#x441;&#x430;&#x434;&#x438;&#x442;&#x44C; &#x447;&#x435;&#x442;&#x44B;&#x440;&#x435;&#x445; &#x433;&#x43E;&#x441;&#x442;&#x435;&#x439; &#x43D;&#x430; &#x447;&#x435;&#x442;&#x44B;&#x440;&#x435; &#x441;&#x442;&#x443;&#x43B;&#x430;?</p>
+        <answer>8</answer>
+        <answer>16</answer>
+        <answer correct="">24</answer>
+        <answer>120</answer>
+    </question>
+    <question>
+        <p>&#x412; &#x43E;&#x43F;&#x435;&#x440;&#x43D;&#x43E;&#x43C; &#x442;&#x435;&#x430;&#x442;&#x440;&#x435; 10 &#x43F;&#x435;&#x432;&#x446;&#x43E;&#x432; &#x438; 8 &#x43F;&#x435;&#x432;&#x438;&#x446;. &#x412; &#x43F;&#x43E;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43A;&#x435; &#x443;&#x447;&#x430;&#x441;&#x442;&#x432;&#x443;&#x44E;&#x442; &#x442;&#x440;&#x438; &#x43C;&#x443;&#x436;&#x441;&#x43A;&#x438;&#x445; &#x433;&#x43E;&#x43B;&#x43E;&#x441;&#x430; &#x438; &#x434;&#x432;&#x430; &#x436;&#x435;&#x43D;&#x441;&#x43A;&#x438;&#x445;. &#x421;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x441;&#x443;&#x449;&#x435;&#x441;&#x442;&#x432;&#x443;&#x435;&#x442; &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x43E;&#x432; &#x440;&#x430;&#x441;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x438;&#x442;&#x44C; &#x438;&#x445; &#x440;&#x43E;&#x43B;&#x438; &#x43C;&#x435;&#x436;&#x434;&#x443; &#x430;&#x43A;&#x442;&#x435;&#x440;&#x430;&#x43C;&#x438;?</p>
+        <answer>18</answer>
+        <answer>80</answer>
+        <answer>3360</answer>
+        <answer correct="">40320</answer>
+    </question>
+    <question>
+        <p>&#x412; &#x43E;&#x43F;&#x435;&#x440;&#x43D;&#x43E;&#x43C; &#x442;&#x435;&#x430;&#x442;&#x440;&#x435; 10 &#x43F;&#x435;&#x432;&#x446;&#x43E;&#x432; &#x438; 8 &#x43F;&#x435;&#x432;&#x438;&#x446;. &#x412; &#x43F;&#x43E;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43A;&#x435; &#x443;&#x447;&#x430;&#x441;&#x442;&#x432;&#x443;&#x44E;&#x442; &#x442;&#x440;&#x438; &#x43C;&#x443;&#x436;&#x441;&#x43A;&#x438;&#x445; &#x433;&#x43E;&#x43B;&#x43E;&#x441;&#x430; &#x438; &#x434;&#x432;&#x430; &#x436;&#x435;&#x43D;&#x441;&#x43A;&#x438;&#x445;. &#x421;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x441;&#x443;&#x449;&#x435;&#x441;&#x442;&#x432;&#x443;&#x435;&#x442; &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x43E;&#x432; &#x432;&#x44B;&#x431;&#x440;&#x430;&#x442;&#x44C; &#x430;&#x43A;&#x442;&#x435;&#x440;&#x43E;&#x432; &#x434;&#x43B;&#x44F; &#x43F;&#x43E;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43A;&#x438;?</p>
+        <answer>18</answer>
+        <answer>80</answer>
+        <answer correct="">3360</answer>
+        <answer>40320</answer>
+    </question>
+</quiz>
                             </div>
                             
                             </div>
@@ -554,7 +590,7 @@
                     <a href="#"><i class="octicon octicon-triangle-up"></i>ВВЕРХ</a>
                 </li>
 <!--                <li>
-                    <a href="#">Обновлено: 01.10.2018</a>
+                    <a href="#">Обновлено: 05.10.2018</a>
                 </li>
             -->
                 
@@ -586,26 +622,6 @@
     
 
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js"></script>
-    
-
-    
-    <script src="../../gitbook/gitbook-plugin-anchorjs/anchor-style.js"></script>
-    
-
-    
-    <script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
-    
-
-    
-    <script src="https://unpkg.com/tooltip.js/dist/umd/tooltip.min.js"></script>
-    
-
-    
-    <script src="../../gitbook/gitbook-plugin-glossary-tooltip/plugin.js"></script>
-    
-
-    
     <script src="https://cdn.mathjax.org/mathjax/2.6-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
 
@@ -614,12 +630,16 @@
     
 
     
+    <script src="../../gitbook/gitbook-plugin-quiz/script.js"></script>
+    
+
+    
     <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
     
 
 <script>
 (function() {
-    gitbook.page.hasChanged({"page":{"title":"Лекция 2.  Перестановки, сочетания, размещения","level":"2.1.2","depth":2,"next":{"title":"1.2. События","level":"2.2","depth":1,"path":"docs/razdel1/structure-1.2.md","ref":"docs/razdel1/structure-1.2.md","articles":[{"title":"Лекция 3. Основные понятия теории вероятностей. Виды случайных событий","level":"2.2.1","depth":2,"path":"docs/razdel1/lection3.md","ref":"docs/razdel1/lection3.md","articles":[]},{"title":"Лекция 4. Определение вероятности. Классическое определение вероятности","level":"2.2.2","depth":2,"path":"docs/razdel1/lection4.md","ref":"docs/razdel1/lection4.md","articles":[]}]},"previous":{"title":"Лекция 1.  Правила сложения и умножения","level":"2.1.1","depth":2,"path":"docs/razdel1/lection1.md","ref":"docs/razdel1/lection1.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","prism","search-pro","custom-favicon","insert-logo-link","-sharing","theme-official","-fontsettings","-highlight","anchorjs","glossary-tooltip","mathjax","livereload"],"root":".","styles":{"website":"styles/website.css"},"pluginsConfig":{"prism":{},"livereload":{},"insert-logo-link":{"src":"images/logo.png","url":"https://ytk.edu.ru/"},"search-pro":{},"theme-official":{},"algolia":{"index":"e-learnings-template","applicationID":"EQRWZKJH6M","publicKey":"03617eabb04cc9cdd91084f3f8f7add0","freeAccount":"true"},"favicon":"images/favicon.ico","glossary-tooltip":{"parseGlossaryItems":true,"placement":"top","trigger":"hover"},"custom-favicon":{},"mathjax":{"forceSVG":false,"version":"2.6-latest"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchorjs":{}},"theme":"default","author":"Greysoft","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{"GPOUYTK":"ГПОУ \"Юргинский технологический колледж \""},"title":"Теория вероятностей и математическая статистика","language":"ru","gitbook":"3.2.2","description":"З.И.Лежнева. Курс лекций","extension":null},"file":{"path":"docs/razdel1/lection2.md","mtime":"2018-10-01T12:57:01.785Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-10-02T03:09:47.046Z"},"basePath":"../..","book":{"language":""}});
+    gitbook.page.hasChanged({"page":{"title":"Лекция 2.  Перестановки, сочетания, размещения","level":"2.1.2","depth":2,"next":{"title":"1.2. События","level":"2.2","depth":1,"path":"docs/razdel1/structure-1.2.md","ref":"docs/razdel1/structure-1.2.md","articles":[{"title":"Лекция 3. Основные понятия теории вероятностей. Виды случайных событий","level":"2.2.1","depth":2,"path":"docs/razdel1/lection3.md","ref":"docs/razdel1/lection3.md","articles":[]},{"title":"Лекция 4. Определение вероятности. Классическое определение вероятности","level":"2.2.2","depth":2,"path":"docs/razdel1/lection4.md","ref":"docs/razdel1/lection4.md","articles":[]}]},"previous":{"title":"Лекция 1.  Правила сложения и умножения","level":"2.1.1","depth":2,"path":"docs/razdel1/lection1.md","ref":"docs/razdel1/lection1.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","prism","search-pro","custom-favicon","insert-logo-link","-sharing","theme-official","-fontsettings","-highlight","mathjax","quiz","livereload"],"root":".","styles":{"website":"styles/website.css"},"pluginsConfig":{"prism":{},"livereload":{},"insert-logo-link":{"src":"images/logo.png","url":"https://ytk.edu.ru/"},"search-pro":{},"theme-official":{},"favicon":"images/favicon.ico","quiz":{"labels":{"check":"Проверить","showExplanation":"Explain","showCorrect":"Show all","explanationHeader":"Explanation"},"text":{"noChosen":"Укажите хотя бы один вариант ответа","incomplete":"Неправильно!"},"buttons":{"showCorrect":false,"showExplanation":false}},"custom-favicon":{},"mathjax":{"forceSVG":false,"version":"2.6-latest"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Greysoft","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{"GPOUYTK":"ГПОУ \"Юргинский технологический колледж \""},"title":"Теория вероятностей и математическая статистика","language":"ru","gitbook":">=3.2.3","description":"З.И.Лежнева. Курс лекций","extension":null},"file":{"path":"docs/razdel1/lection2.md","mtime":"2018-10-05T02:53:28.674Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-05T03:14:47.338Z"},"basePath":"../..","book":{"language":""}});
 })();
 </script>
 

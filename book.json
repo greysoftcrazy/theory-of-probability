@@ -1,5 +1,5 @@
 {
-    "gitbook": "3.2.2",
+    "gitbook": ">=3.2.3",
     "output": null,
     "generator": "site",
     "isbn": "",
@@ -18,9 +18,9 @@
         "theme-official",
         "-fontsettings",
         "-highlight",
-        "anchorjs",
-        "glossary-tooltip",
-        "mathjax"
+        "mathjax",
+        "quiz"
+
     ],
     "title": "Теория вероятностей и математическая статистика",
     "author": "Greysoft",
@@ -32,15 +32,28 @@
             "src": "images/logo.png",
             "url": "https://ytk.edu.ru/"
           },
-          "algolia": {
-            "index": "e-learnings-template",
-            "applicationID": "EQRWZKJH6M",
-            "publicKey": "03617eabb04cc9cdd91084f3f8f7add0",
-            "freeAccount": "true"
-          },
           "theme-default": {
             "showLevel": false
-        },
+          },
+        "quiz": {
+            "labels": {
+                "check"             : "Проверить",
+                "showExplanation"   : "Explain", 
+                "showCorrect"       : "Show all",   
+                "explanationHeader" : "Explanation"
+            },
+            "text": {
+                "noChosen"    : "Укажите хотя бы один вариант ответа",  
+                "incomplete"  : "Неправильно!" 
+            },
+            "buttons": {
+                "showCorrect"       : false, 
+                "showExplanation"   : false 
+            }
+    },
+    "theme-default": {
+        "showLevel": false
+    },
         "favicon": "images/favicon.ico"
     },
     "styles": {

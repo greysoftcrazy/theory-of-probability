@@ -95,3 +95,41 @@ $$2\varPhi(u_{max}) = \gamma$$, где $$u_{max}(\gamma)$$ находится с
 4. Доверительный интервал для m имеет вид 6,1 - 2,63 < $$m$$ < 6,1+2,63, или 3,47 < $$m$$ < 8,73. 
 
 *Ответ*:  $$m$$ϵ(3,47; 8,73).
+
+<quiz id="test" name="<h3> Выполните тестовое задание по материалу лекции</h3>">
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+</quiz>

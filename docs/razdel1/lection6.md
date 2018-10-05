@@ -145,3 +145,42 @@ $$\varPhi(x_2) =  \varPhi(1,98) = 0,476$$;
  $$ P_{700}(230 \leq m \leq 270) \approx \varPhi(x_2) - \varPhi(x_1) = 0,476 + 0,383 = 0,859$$
 
 *Ответ:* 0,859
+
+
+<quiz id="test" name="<h3> Выполните тестовое задание по материалу лекции</h3>">
+    <question>
+        <p>В магазине 50% комплектующих для компьютера от производителя А, 30% – от производителя В и 20% от производителя С. Производитель А выпускает 2% изделий, которые не выдерживают гарантийный срок производитель В – 1%, производитель С – 1%. Материнская плата  выдержала гарантийный срок. Какова вероятность, что она выпущена производителем А?</p>
+        <answer>0</answer>
+        <answer>$${1 \over 3}$$</answer>
+        <answer correct>$${2 \over 3}$$</answer>
+        <answer>1</answer>
+    </question>
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+</quiz>

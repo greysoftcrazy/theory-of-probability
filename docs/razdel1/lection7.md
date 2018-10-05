@@ -142,3 +142,40 @@ $$Р(5) = 0,2^5 = 0,00032$$
 
 ![i7](../../images/7-4.png)
 
+<quiz id="test" name="<h3> Выполните тестовое задание по материалу лекции</h3>">
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+    <question>
+        <p></p>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+        <answer></answer>
+    </question>
+</quiz>
