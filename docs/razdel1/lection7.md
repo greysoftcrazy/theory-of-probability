@@ -144,38 +144,28 @@ $$Р(5) = 0,2^5 = 0,00032$$
 
 <quiz id="test" name="<h3> Выполните тестовое задание по материалу лекции</h3>">
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>Случайная величина Х задана рядом распределения:
+        <br>
+        <img src="../../images/7-4_t0.png">
+        <br>
+        Найдите недостающее значение вероятности</p>
+        <answer correct>0,1</answer>
+        <answer>0,14</answer>
+        <answer>0,20</answer>
+        <answer>0,39</answer>
     </question>
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>Функция распределения ДСВ принимает значения на промежутке ...</p>
+        <answer>(0; 1)</answer>
+        <answer>(-1; 1)</answer>
+        <answer correct>[0; 1]</answer>
+        <answer>(-∞; ∞)</answer>
     </question>
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-    </question>
-    <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-    </question>
-    <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>Функция распределения ДСВ ...</p>
+        <answer>убывающая</answer>
+        <answer>непрерывная</answer>
+        <answer>возрастающая</answer>
+        <answer correct>неубывающая</answer>
     </question>
 </quiz>

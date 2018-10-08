@@ -130,38 +130,36 @@ $$σ(x) = \sqrt{11,1336} ≈ 3,34$$.
 
 <quiz id="test" name="<h3> Выполните тестовое задание по материалу лекции</h3>">
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>Случайная величина Х задана рядом распределения:
+        <br>
+        <img src="../../images/8-4_t0.png">
+        <br>
+        Найдите математическое ожидание СВ</p>
+        <answer>0,1</answer>
+        <answer>0,15</answer>
+        <answer correct>0,19</answer>
+        <answer>0,39</answer>
     </question>
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>Случайная величина Х задана рядом распределения:
+        <br>
+        <img src="../../images/8-4_t1.png">
+        <br>
+        Найдите дисперсию ДСВ</p>
+        <answer>3,248</answer>
+        <answer>7,22</answer>
+        <answer correct>10,5516</answer>
+        <answer>62,68</answer>
     </question>
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-    </question>
-    <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-    </question>
-    <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>Случайная величина Х задана рядом распределения:
+        <br>
+        <img src="../../images/8-4_t2.png">
+        <br>
+        Найдите среднеквадратическое отклонение ДСВ</p>   
+        <answer correct>3,248</answer>
+        <answer>7,22</answer>
+        <answer>10,5516</answer>
+        <answer>62,68</answer>
     </question>
 </quiz>

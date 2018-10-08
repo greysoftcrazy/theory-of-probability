@@ -32,9 +32,6 @@
             "src": "images/logo.png",
             "url": "https://ytk.edu.ru/"
           },
-          "theme-default": {
-            "showLevel": false
-          },
         "quiz": {
             "labels": {
                 "check"             : "Проверить",

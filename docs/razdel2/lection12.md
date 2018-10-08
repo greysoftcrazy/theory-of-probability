@@ -176,38 +176,24 @@ $$\pi \approx 4·P(A) = 4·{5 \over 10} \approx 2$$
 
 <quiz id="test" name="<h3> Выполните тестовое задание по материалу лекции</h3>">
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>Разыграть ДСВ –это значит ...</p>
+        <answer correct>получить последовательность ее возможных значений $$x_i$$ по известным вероятностям</answer>
+        <answer>построить график</answer>
+        <answer>дать точечную оценку параметра</answer>
+        <answer>найти вероятность появления события</answer>
     </question>
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>По заданным вероятностям четырех событий, образующих полную группу событий $$p_1 = P(A_1) = 0,21$$; $$p_2 = P(A_2) = 0,32$$; $$p_3 = P(A_3) = 0,45$$; $$p_4 = P(A_4) = 0,02$$ разыграть пять испытаний, в каждом из которых должно появиться одно из этих событий.</p>
+        <answer correct>$$A_2; A_2; A_3; A_2; A_2$$</answer>
+        <answer>$$A_2; A_3; A_3; A_3; A_2$$</answer>
+        <answer>$$A_2; A_2; A_1; A_2; A_4$$</answer>
+        <answer>$$A_1; A_2; A_4; A_2; A_2$$</answer>
     </question>
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-    </question>
-    <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-    </question>
-    <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>События $$А$$ и $$В$$ независимы и совместны. Разыграть шесть испытаний, в каждом из которых $$Р(А)=0,8$$;  $$Р(В)=0,3$$</p>
+        <answer correct>$$\Delta_1 = (0; 0,24); \Delta_2 = (0,24; 0,8); \Delta_3 = (0,8; 0,86); \Delta_4 = (0,86; 1)$$</answer>
+        <answer>$$\Delta_1 = (0; 0,2); \Delta_2 = (0,2; 0,8); \Delta_3 = (0,8; 0,9); \Delta_4 = (0,9; 1)$$</answer>
+        <answer>$$\Delta_1 = (0; 0,28); \Delta_2 = (0,28; 0,4); \Delta_3 = (0,4; 0,75); \Delta_4 = (0,75; 1)$$</answer>
+        <answer>$$\Delta_1 = (0; 0,35); \Delta_2 = (0,35; 0,7); \Delta_3 = (0,7; 0,88); \Delta_4 = (0,88; 1)$$</answer>
     </question>
 </quiz>

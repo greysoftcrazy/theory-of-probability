@@ -190,38 +190,24 @@ $$ H = {x_{max} - x_{min} \over k} = {232 - 212 \over 5} = 4$$
 
 <quiz id="test" name="<h3> Выполните тестовое задание по материалу лекции</h3>">
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>Пример точечного вариационного ряда может быть представлен таблицей:</p>
+        <answer correct><img src="../../images/10-4_t1.png"></answer>
+        <answer><img src="../../images/10-4_t2.png"></answer>
+        <answer><img src="../../images/10-4_t3.png"></answer>
+        <answer><img src="../../images/10-4_t4.png"></answer>
     </question>
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>Полигон частот - это ...</p>
+        <answer>парабола</answer>
+        <answer correct>ломаная</answer>
+        <answer>прямая</answer>
+        <answer>линия любого вида</answer>
     </question>
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-    </question>
-    <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-    </question>
-    <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>График эмпирической функции распределения ...</p>
+        <answer>называется вариантой</answer>
+        <answer>не имеет особого названия</answer>
+        <answer correct>называется кумулятой</answer>
+        <answer>строится на отрезке [0; 1]</answer>
     </question>
 </quiz>

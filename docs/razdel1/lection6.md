@@ -156,31 +156,17 @@ $$\varPhi(x_2) =  \varPhi(1,98) = 0,476$$;
         <answer>1</answer>
     </question>
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>Найдите вероятность того, что 7 раз брошенная монета упадет «орлом» вверх 2 раза.</p>
+        <answer>0</answer>
+        <answer>$${1 \over 3}$$</answer>
+        <answer correct>$${2 \over 3}$$</answer>
+        <answer>1</answer>
     </question>
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-    </question>
-    <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-    </question>
-    <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>В семье пять детей. Найдите вероятность того, что среди них два мальчика. Вероятность рождения мальчика принять равной 0,51.</p>
+        <answer>0</answer>
+        <answer correct>≈ 0,306</answer>
+        <answer>≈ 0,72</answer>
+        <answer>1</answer>
     </question>
 </quiz>

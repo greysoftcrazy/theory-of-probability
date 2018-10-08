@@ -98,38 +98,38 @@ $$2\varPhi(u_{max}) = \gamma$$, где $$u_{max}(\gamma)$$ находится с
 
 <quiz id="test" name="<h3> Выполните тестовое задание по материалу лекции</h3>">
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>Что значит «дать точечную оценку параметра»?</p>
+        <answer>построить график</answer>
+        <answer>найти вероятность ошибки</answer>
+        <answer>найти промежуток, которому принадлежит числовое значеие параметра</answer>
+        <answer correct>найти числовое значение параметра</answer>
     </question>
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>Интервал, который с заданной вероятностью γ покрывает неизвестное значение параметра, называется ...</p>
+        <answer correct>доверительным</answer>
+        <answer>статистическим</answer>
+        <answer>эмпирическим</answer>
+        <answer>положительным</answer>
     </question>
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>Для нахождения точности оценки параметра применяется таблица ...</p>
+        <answer>простых чисел</answer>
+        <answer>случайных чисел</answer>
+        <answer correct>функции Лапласа</answer>
+        <answer>производных</answer>
     </question>
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>Выборочная средняя находится по формуле:</p>
+        <answer>$$S^2 = {1 \over n}\sum_1^k{x_i}^2n_i - (\overline{x})^2$$</answer>
+        <answer correct>$$ \overline{x} = {1 \over n}\textstyle\sum_{1}^kx_in_i$$</answer>
+        <answer>$$\delta = {u_\gamma\sigma \over \sqrt{n} }$$</answer>
+        <answer>$$ \alpha = 1 - \gamma $$</answer>
     </question>
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>С помощью функции Лапласа найдите доверительный интервал для оценки неизвестного математического ожидания $$m$$  с заданной надежностью $$\gamma = 0,999$$, если $$\sigma = 5$$;  $$\overline{x_в} = 7,3$$;  $$n = 80$$, предполагая, что измеряемая величина распределена нормально.</p>
+        <answer>(3,62; 5,9)</answer>
+        <answer>(5,3; 8,1)</answer>
+        <answer>(4; 8)</answer>
+        <answer correct>(5,61; 8,99)</answer>
     </question>
 </quiz>

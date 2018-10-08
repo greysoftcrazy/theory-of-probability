@@ -101,7 +101,7 @@ $$ F(x)=\begin{cases}
 $$ p(x) = F'(x)=\begin{cases}
    0 &\text{при } x \leq 3; \\
    2x - 6 &\text{при } 3 < x \leq 4; \\
-   1 &\text{при } x > 4.
+   0 &\text{при } x > 4.
 \end{cases}$$
 
 График функции $$F(x)$$
@@ -114,38 +114,38 @@ $$ p(x) = F'(x)=\begin{cases}
 
 <quiz id="test" name="<h3> Выполните тестовое задание по материалу лекции</h3>">
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>Функция распределения НСВ принимает значения на промежутке ...</p>
+        <answer>(0; 1)</answer>
+        <answer>(-1; 1)</answer>
+        <answer correct>[0; 1]</answer>
+        <answer>(-∞; ∞)</answer>
     </question>
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>Вероятность того, что случайная величина ξ примет значение в полуинтервале [а; в), равна ...</p>
+        <answer>$$P{ а ≤ξ< в} = F(в)$$</answer>
+        <answer>$$P{ а ≤ξ< в} = F(а)$$</answer>
+        <answer>1</answer>
+        <answer correct>$$P{ а ≤ξ< в} = F(в) - F(а)$$</answer>
     </question>
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>Плотностью распределения НСВ называют ...</p>
+        <answer>математическое ожидание НСВ</answer>
+        <answer correct>первую производную от функции распределения НСВ</answer>
+        <answer>дисперсию НСВ</answer>
+        <answer>вероятность появления достоверного события</answer>
     </question>
     <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-    </question>
-    <question>
-        <p></p>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
-        <answer></answer>
+        <p>Случайная величина $$Х$$ задана функцией распределения $$F(x)$$:<br>
+        $$F(x) = \begin{cases}
+           0 &\text{при } & x \leq 0 \\
+           {1 \over 2}x^2 &\text{при } & 0 < x \leq \sqrt{2} \\
+           1 &\text{при } & x > \sqrt{2}
+            \end{cases}$$<br>
+            Найдите вероятность попадания НСВ в заданный интервал $$({1 \over 6};{1 \over 3})$$
+        </p>
+        <answer>0</answer>
+        <answer>$${1 \over 72}$$</answer>
+        <answer>$${1 \over 2}$$</answer>
+        <answer correct>$${1 \over 24}$$</answer>
     </question>
 </quiz>
