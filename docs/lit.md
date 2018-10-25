@@ -5,6 +5,6 @@
 
 3. Семенов А.Т., Теория вероятностей и математическая статистика [Текст].  Издательство:   Новосибирский государственный университет экономики и управления, , 2007.-156с.;
 
-4. https://sites.google.com/site/teoriaveroyatnosti/teoria/metod-statisticeskih-ispytanij
+4. Теория вероятности. Лекция 10. Метод статистических испытаний [Электронный ресурс] /https://sites.google.com/site/teoriaveroyatnosti. Режим доступа: [https://sites.google.com/site/teoriaveroyatnosti/teoria/metod-statisticeskih-ispytanij](https://sites.google.com/site/teoriaveroyatnosti/teoria/metod-statisticeskih-ispytanij), свободный. – Загл. с экрана.
 
 
